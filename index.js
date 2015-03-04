@@ -20,7 +20,7 @@ function addResource(input) {
 function startServer() {
   console.log(validPaths);
   server.start(router.route, validPaths);
-};
+}
 
 exports.addResource = addResource;
 exports.startServer = startServer;
